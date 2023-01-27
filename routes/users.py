@@ -6,8 +6,6 @@ from models.user import User
 from fastapi import HTTPException, status
 from database.connection import Database
 
-
-
 user_router = APIRouter(tags=["user"])
 user_database = Database(User)
 
